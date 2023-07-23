@@ -1,0 +1,76 @@
+.office-plan {
+  display: flex;
+  flex-direction: row;
+}
+
+/*
+* Блок с информацией о сотруднике на выбранном рабочем месте:
+*/
+.workspace-info {
+  /* display: none; По умолчанию элемент скрыт */
+  border-left: 1px solid #e6e6e6;
+  padding-left: 20px;
+}
+
+.workspace-empty {
+  /* display: none; */
+  margin: 0 0 0 20px;
+}
+
+
+/*
+* SVG-элементы рабочих мест:
+*/
+
+.workspace {
+  cursor: pointer;
+  outline: none;
+}
+
+/* "occupied" - класс-метка для стилизации занятого рабочего места */
+.workspace.occupied {
+  fill: rgba(20, 229, 197, 0.17);
+}
+
+/* наведение курсора на SVG-элемент рабочего места */
+.workspace:hover {
+  fill: rgba(0, 0, 0, 0.1);
+}
+
+/* "active" - класс-метка для стилизации текущего выбранного рабочего места */
+.workspace.active {
+  border: 3px solid black;
+  fill: rgba(56, 234, 24, 0.13);
+  stroke-width: 3;
+}
+
+
+/*
+* Переключатель комнат
+*/
+
+.room-switcher {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 50px 0 10px
+}
+
+.current-room {
+  font-size: 24px;
+}
+
+.to-bottom-room {
+  border: none;
+  font-size: 60px;
+  color: black;
+  text-align: center;
+  background-color: transparent;
+}
+
+
+
+.to-bottom-room:hover {
+  color: #585858;
+}

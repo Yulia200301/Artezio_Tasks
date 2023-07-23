@@ -1,0 +1,193 @@
+body{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-family: 'Calibri';
+  color: #333333;
+}
+
+/* nav */
+
+nav{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 2px solid #EEEEEE;
+  padding-bottom: 15px;
+}
+
+nav.nav-menu div a{
+  margin: 15px;
+  color: #6C7074;
+  text-decoration: none;
+}
+
+nav.nav-menu div a:hover{
+  border-bottom: 1px solid black;
+  color: black;
+}
+
+/* Page 1 (index) */
+
+/* section */
+
+h2{
+  border-left: 3px solid #999999;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+
+div.description{
+  background: #F5F5F5;
+  padding: 2px 0;
+}
+
+div.description p{
+  padding-left: 10px;
+  color: #757379;
+  font-style: italic;
+}
+
+span{
+  font-weight: bold;
+}
+
+/* blocks HTML CSS JavaScript */
+
+div.blocks{
+  margin: 30px 0;
+  display: flex;
+  flex-direction: row;
+}
+
+div.blocks div{
+  display: inherit;
+  justify-content: center;
+  flex-direction: column;
+  width: 33%;
+}
+ul{
+  margin: 5px auto;
+}
+
+li{
+  margin: 5px 0;
+}
+img{
+  height: 150px;
+  margin: 0 auto;
+}
+
+/* Line */
+
+div.line {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+div.first-line{
+  width: 75%;
+  border-bottom: 1px solid #C2C2C2;
+  margin-bottom: 6px;
+}
+
+div.line a{
+  color: #2B96EA;
+  width: auto;
+  margin: 0 5px;
+}
+
+div.second-line{
+  width: 2%;
+  border-bottom: 1px solid #C2C2C2;
+  margin-bottom: 6px;
+}
+
+/* Page 2 (tasks) */
+
+article.tastsJS section{
+  margin-bottom: 30px;
+}
+
+h3{
+  border-left: 2px solid #999999;
+  padding-left: 10px;
+  margin-bottom: 30px;
+}
+
+div.prompt {
+  display: flex;
+  align-items: flex-end;
+}
+
+div.prompt p{
+  font-size: 0.9em;
+  margin: 0;
+  margin-right: 5px;
+}
+
+div.prompt span{
+  margin-right: 5px;
+}
+
+div.checkboxPosition{
+  display: flex;
+  align-items: flex-start;
+}
+
+div.checkboxPosition input{
+  margin-left: 15px;
+}
+
+div.container{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+
+div.slider{
+  width: 150px;
+  height: 150px;
+  margin: 0 20px;
+  overflow: hidden;
+}
+
+div.slider-line{
+  height: 150px;
+  width: 600px;
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+}
+
+button.slider-prev, button.slider-next{
+  background: none;
+  border: none;
+  height: fit-content;
+}
+
+div.Task-6{
+  margin-top: 10px;
+}
+
+select{
+  background: #EFEFEF;
+  border: 2px solid #999999;
+  margin-right: 2px;
+  border-radius: 3px;
+}
+
+canvas{
+  width: 500px;
+  height: 250px;
+  border: 2px solid #CDCDCD;
+  border-radius: 6px;
+}
+
+
+

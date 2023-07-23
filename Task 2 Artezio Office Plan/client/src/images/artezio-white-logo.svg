@@ -1,0 +1,21 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 119.63">
+  <defs>
+    <style>
+      .cls-1{
+        font-size:40.75px;font-family:AvenirNextLTPro-Bold, Avenir Next LT Pro;font-weight:700;
+      }
+      .cls-1,.cls-3{
+        fill:#fff;
+      }
+      .cls-2{
+        letter-spacing:-0.01em;
+      }
+    </style>
+  </defs>
+  <title>Artboard 1</title>
+  <text class="cls-1" transform="translate(103.57 76.19)">A
+    <tspan class="cls-2" x="29.71" y="0">R</tspan>
+    <tspan x="56.24" y="0">TEZIO</tspan>
+  </text>
+  <path class="cls-3" d="M60.86,34.08H42.69L21.09,90.22H82.46ZM57.55,88.61,41.36,46.92h4.87l13.83,35.2Z"/>
+</svg>

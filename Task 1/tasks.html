@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task JavaScript</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    div.menu a:nth-child(2){
+      border-bottom: 1px solid black;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="nav-menu">
+      <div class="menu">
+        <a href="index.html">ГЛАВНАЯ</a>
+        <a href="tasks.html">ЗАДАНИЯ</a>
+      </div>
+      <div>
+        <a href="#">НАСТРОЙКИ</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <article class="tastsJS">
+      <h2>Список заданий</h2>
+      <section>
+        <h3>Задание 1. Ввод символов</h3>
+        <input type="text" id="inputTextTask-1">
+        <div class="prompt">
+          <p>Количество символов:</p>
+          <p id="outputTextTask-1">0</p>
+        </div>
+      </section>
+      <section>
+        <h3>Задание 2. Ввод текста</h3>
+        <textarea rows="4" cols="50" id="inputTextTask-2"></textarea>
+        <div class="prompt">
+          <p>Количество символов:</p>
+          <p id="outputSymTask-2">0</p>
+        </div>
+        <div class="prompt">
+          <p>Количество слов:</p>
+          <p id="outputWordsTask-2">0</p>
+        </div>
+        <div class="prompt">
+          <p>Количество строк:</p>
+          <p id="outputStringsTask-2">0</p>
+        </div>
+      </section>
+      <section>
+        <h3>Задание 3. Проверка ввода</h3>
+        <input type="text" id="inputTextTask-3">
+        <div class="prompt">
+          <p id="limitSym-3">Осталось символов:</p>
+          <p id="outputTextTask-3">10</p>
+        </div>
+      </section>
+      <section>
+        <h3>Задание 4. Ограничение ввода</h3>
+        <div class="checkboxPosition">
+          <textarea rows="4" cols="50" id="inputTextTask-4"></textarea>
+          <input type="checkbox" id="check-4">
+          <label for="check-4">Запретить превышение</label>
+        </div>
+        <div class="prompt">
+          <p id="limitSym-4">Осталось символов:</p>
+          <p id="outputTextTask-4">20</p>
+        </div>
+      </section>
+      <section>
+        <h3>Задание 5. Слайдер картинок</h3>
+        <div class="container">
+          <button class="slider-prev" disabled="true" >&#9668;</button>
+          <div class="slider">
+            <div class="slider-line">
+              <img src="images/photo1.jpg" alt="Фото 1">
+              <img src="images/photo2.jpg" alt="Фото 2">
+              <img src="images/photo3.jpg" alt="Фото 3">
+              <img src="images/photo4.jpg" alt="Фото 4">
+            </div>
+          </div>
+          <button class="slider-next">&#9658;</button>
+        </div>
+      </section>
+      <section>
+        <h3>Задание 6. Разность дат</h3>
+        <div class="prompt">
+          <span>Сегодня:</span>
+          <p id="outputDayTask-6"></p>
+          <p id="outputMonthTask-6"></p>
+          <p id="outputYearTask-6"></p>
+          <p>года</p>
+        </div>
+        <div class="prompt Task-6">
+          <p>Дата события:</p>
+          <select id="inputDayTask-6" size="1">
+          </select>
+          <select id="inputMonthTask-6" size="1">
+            <option value="0" id="0">январь</option>
+            <option value="1" id="1">февраль</option>
+            <option value="2" id="2">март</option>
+            <option value="3" id="3">апрель</option>
+            <option value="4" id="4">май</option>
+            <option value="5" id="5">июнь</option>
+            <option value="6" id="6">июль</option>
+            <option value="7" id="7">август</option>
+            <option value="8" id="8">сентябрь</option>
+            <option value="9" id="9">октябрь</option>
+            <option value="10" id="10">ноябрь</option>
+            <option value="11" id="11">декабрь</option>
+          </select>
+          <select id="inputYearTask-6" size="1">
+          </select>
+        </div>
+        <div class="prompt Task-6">
+          <p id="outputTextTask-6">Событие произошло сегодня</p>
+          <span id="outputCalcYears"></span>
+          <span id="outputCalcMonths"></span>
+          <span id="outputCalcDays"></span>
+          <p id="textAgo"></p>
+        </div>
+      </section>
+      <section>
+        <h3>Задание 7. Прямоугольник</h3>
+        <canvas id="canvasTask-7"></canvas>
+      </section>
+    </article>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
